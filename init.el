@@ -8,3 +8,5 @@
 (global-linum-mode t)
 ;; Show column numbers in mode line
 (column-number-mode t)
+;; Set theme
+(load-theme 'tango-dark t)
