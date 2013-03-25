@@ -14,6 +14,7 @@
     nrepl)
   "A list of packages to ensure are installed at launch.")
 
+(require 'cl)
 (defun my-packages-installed-p ()
   (loop for p in my-packages
         when (not (package-installed-p p)) do (return nil)
