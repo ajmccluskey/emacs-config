@@ -11,7 +11,8 @@
   '(clojure-mode
     clojure-test-mode
     paredit
-    nrepl)
+    nrepl
+    markdown-mode)
   "A list of packages to ensure are installed at launch.")
 
 (require 'cl)
