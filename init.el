@@ -1,6 +1,7 @@
 ;; Setup our load path and load our custom init stuff
 (add-to-list 'load-path "~/.emacs.d/init/")
 (load-library "my-packages")
+(load "c")
 
 ;; Highlight matching parens
 (show-paren-mode t)
