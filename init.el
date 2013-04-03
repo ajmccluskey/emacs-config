@@ -3,6 +3,13 @@
 (load-library "my-packages")
 (load "c")
 
+;; Enable cmake-mode
+(require 'cmake-mode)
+(setq auto-mode-alist
+      (append '(("CMakeLists\\.txt\\'" . cmake-mode)
+		("\\.cmake\\'" . cmake-mode))
+	      auto-mode-alist))
+
 ;; Highlight matching parens
 (show-paren-mode t)
 ;; Show line numbers in margin
