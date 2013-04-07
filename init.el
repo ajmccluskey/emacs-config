@@ -36,3 +36,9 @@
 ;; OS specific config
 (cond ((eq system-type 'darwin) (load-library "mac-config"))
       ((eq system-type 'windows-nt) (load-library "windows-config")))
+
+;; Put backup/autosave files in the system's temp directory
+(setq backup-directory-alist
+          `((".*" . ,temporary-file-directory)))
+    (setq auto-save-file-name-transforms
+          `((".*" ,temporary-file-directory t)))
