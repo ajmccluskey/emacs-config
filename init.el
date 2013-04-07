@@ -42,3 +42,5 @@
           `((".*" . ,temporary-file-directory)))
     (setq auto-save-file-name-transforms
           `((".*" ,temporary-file-directory t)))
+
+(custom-set-variables '(inhibit-startup-screen t))
