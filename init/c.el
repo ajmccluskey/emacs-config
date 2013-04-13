@@ -29,3 +29,9 @@
 
 (eval-after-load 'cc-mode
   '(define-key c-mode-map (kbd "C-c h") 'c-header-guards))
+
+;; Use tabs that are 4 chars wide
+(setq-default c-basic-offset 4
+	      tab-width 4
+	      indent-tabs-mode t)
+
