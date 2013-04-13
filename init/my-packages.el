@@ -13,7 +13,8 @@
     paredit
     nrepl
     markdown-mode
-    cmake-mode)
+    cmake-mode
+    auto-complete)
   "A list of packages to ensure are installed at launch.")
 
 (require 'cl)
