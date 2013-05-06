@@ -11,6 +11,10 @@
 		("\\.cmake\\'" . cmake-mode))
 	      auto-mode-alist))
 
+;; Markdown mode doesn't seem to associate with .md files itself
+(setq auto-mode-alist
+	  (cons '("\\.md$" . markdown-mode) auto-mode-alist))
+
 ;; Highlight matching parens
 (show-paren-mode t)
 ;; Show line numbers in margin
