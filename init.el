@@ -48,4 +48,6 @@
     (setq auto-save-file-name-transforms
           `((".*" ,temporary-file-directory t)))
 
-(custom-set-variables '(inhibit-startup-screen t))
+(custom-set-variables
+ '(haskell-program-name "/usr/local/bin/ghci")
+ '(inhibit-startup-screen t))

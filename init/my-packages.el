@@ -14,7 +14,8 @@
     nrepl
     markdown-mode
     cmake-mode
-    auto-complete)
+    auto-complete
+    haskell-mode)
   "A list of packages to ensure are installed at launch.")
 
 (require 'cl)
