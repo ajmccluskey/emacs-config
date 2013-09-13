@@ -1,8 +1,9 @@
 ;; Pull in Marmalade packages
 (require 'package)
 (add-to-list 'package-archives 
-    '("marmalade" .
-      "http://marmalade-repo.org/packages/"))
+			 '("marmalade" . "http://marmalade-repo.org/packages/"))
+(add-to-list 'package-archives
+			 '("melpa" . "http://melpa.milkbox.net/packages/"))
 (package-initialize)
 
 ;; Ensure our preferred packages are all loaded in this install - taken from
@@ -15,7 +16,8 @@
     markdown-mode
     cmake-mode
     auto-complete
-    haskell-mode)
+    haskell-mode
+    icicles)
   "A list of packages to ensure are installed at launch.")
 
 (require 'cl)
