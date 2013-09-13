@@ -49,5 +49,5 @@
           `((".*" ,temporary-file-directory t)))
 
 (custom-set-variables
- '(haskell-program-name "/usr/local/bin/ghci")
+ '(haskell-program-name "ghci")
  '(inhibit-startup-screen t))
