@@ -5,6 +5,9 @@
 (load "html")
 (load "cmake")
 
+(require 'ido)
+(ido-mode t)
+
 ;; Enable cmake-mode
 (require 'cmake-mode)
 (setq auto-mode-alist
