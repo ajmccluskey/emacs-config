@@ -2,6 +2,7 @@
 (add-to-list 'load-path "~/.emacs.d/init/")
 (load-library "my-packages")
 (load "c")
+(load "html")
 (load "cmake")
 
 ;; Enable cmake-mode
