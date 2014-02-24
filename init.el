@@ -4,6 +4,7 @@
 (load "c")
 (load "html")
 (load "cmake")
+(load "wrapped-text")
 
 (require 'ido)
 (ido-mode t)
